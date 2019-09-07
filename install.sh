@@ -254,7 +254,7 @@ rm -rf "\$TMP"
 rm -f "/home/wekan/bundle"
 ln -s "/home/wekan/\$NEW" "/home/wekan/bundle"
 supervisorctl restart wekan
-echo "$(date) Restarted"
+echo "\$(date) Restarted"
 HEREDOC
 chmod +x /usr/local/sbin/auto_upgrade_wekan
 cat << HEREDOC > /etc/cron.d/auto_upgrade_wekan
