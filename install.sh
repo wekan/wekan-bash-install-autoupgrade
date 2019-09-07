@@ -239,7 +239,7 @@ NEW=\$(curl -s \$URL | grep -e ">wekan.*zip"|sed -r "s/^.*>wekan-(.*?).zip<.*\$/
 CUR=\$(readlink /home/wekan/bundle| cut -d"/" -f 4)
 [ "\$NEW" == "\$CUR" ] && exit 0
 [ -e /home/wekan/\$NEW ] && exit 0
-echo "\$(date) Install $NEW"
+echo "\$(date) Install \$NEW"
 TMP=\$( mktemp -d )
 cd "\$TMP"
 wget --quiet "\$URL/wekan-\$NEW.zip"
