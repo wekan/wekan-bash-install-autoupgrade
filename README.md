@@ -13,7 +13,7 @@ It won't work on Debian 10 Buster, little story about that below if you're inter
 ## Crash course
 
 
-`curl https://git.interhacker.space/alban/wekan-bash-installer/raw/branch/master/install.sh | bash`
+`curl -s https://git.interhacker.space/alban/wekan-bash-installer/raw/branch/master/install.sh | bash`
 
 Pretty simple if you're into `curl|bash` methods ;) Otherwise feel free to `git clone`, `wget`, or use the method of your liking to download and execute.
 
