@@ -4,7 +4,6 @@
 # @license  GPLv3
 # @url      https://git.interhacker.space/alban/wekan-bash-installer
 
-# Which
 MSG="Please provide the domain name you want to host wekan on [Default:localhost] : "
 read -p "$MSG" DOMAIN
 DOMAIN=${DOMAIN:-localhost}
