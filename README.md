@@ -44,7 +44,7 @@ Pretty simple if you're into `curl|bash` methods ;) Otherwise feel free to `git 
 
 ## Words of Caution
 
-### HTTPS and $DOMAIN
+#### HTTPS and $DOMAIN
 
 If you want an HTTPS vhost, better add your domain to the DNS.
 
@@ -64,8 +64,24 @@ Please send an email to wekan@albancrommer.com in case of an emergency.
 
 Ah, well, you're reading, hey? Here's our little story.
 
-Some day, mongodb decided it should change its licensing, and since it was restricting the freedom of its users Debian to remove mongodb packages from its new repositories.
+Once upon a time, everything was beautiful. 
 
-Installing mongodb on Debian 10 «Buster» is a mess, and it doesn't look like mongodb has made any move to fix it.
+The sun shined, baby seals were killed by thousands, it was easy to install Wekan, and patriarchy gladly ruled the world.
 
-So meanwhile, you're better off running
+But then one day, some mongodb Gods In The Sky decided they should change the software's licensing.
+
+Turns out it was restricting the freedom of users.
+
+It didn't take long for the Debian Knights of the White Keyboard to react. 
+
+They steadily removed all mongodb packages from new repositories starting with the release of Buster.
+
+The poor people were miserable. 
+
+Well, they were miserable already but now installing mongodb on Debian 10 «Buster» was a mess.
+
+The mongodb Gods did not see fit to fix it, probably because that meant selling more Cloud installs which they fed upon.
+
+And here it is childs, you've got to run Wekan on Stretch because the upper management got messy. 
+
+Now get back to work, you peons.
