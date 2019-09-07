@@ -4,7 +4,9 @@
 
 If like me, you want to run Wekan on Debian and the [install options](https://github.com/wekan/wekan/wiki/Platforms) don't fit your model.
 
-**Debian 9 Stretch images required for this script to work**
+
+**Please use it on a Debian 9 Stretch image.**
+
 
 It won't work on Debian 10 Buster, little story about that below if you're interested.
 
