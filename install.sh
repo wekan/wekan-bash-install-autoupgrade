@@ -257,6 +257,7 @@ echo "\$(date) Restarted"
 HEREDOC
 chmod +x /usr/local/sbin/auto_upgrade_wekan
 cat << HEREDOC > /etc/cron.d/auto_upgrade_wekan
+PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin/:/usr/local/bin/
 0 0 * * * root /usr/local/sbin/auto_upgrade_wekan
 HEREDOC
 
