@@ -58,9 +58,11 @@ There's no mongodb backup automatically configured. Please don't run this in pro
 
 ## Bugs, contribution
 
-All are welcome.
+Please are issues or pull requests to this repo. This repo is maintained by [xet7](https://github.com/xet7)
+who is maintainer of [Wekan](https://wekan.github.io).
 
-Please send an email to wekan@albancrommer.com in case of an emergency.
+This repo is forked [from original repo](https://git.interhacker.space/alban/wekan-bash-installer).
+You can send an email to original author of this code wekan@albancrommer.com in case of an emergency.
 
 ## Why Debian 9 only?
 
