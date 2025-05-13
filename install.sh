@@ -1,7 +1,6 @@
 #! /bin/bash
 # @author   alban
 # @since    2019-09-06
-# @license  GPLv3
 # @url      https://git.interhacker.space/alban/wekan-bash-installer
 
 MSG="Please provide the domain name you want to host wekan on [Default:localhost] : "
